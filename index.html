@@ -4,30 +4,50 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    
+   
    <link rel="stylesheet" href="styles.css" />
-    <!-- <script type="module" src="script.js"></script> -->
-  <script src="lesson.js" defer></script>
-  </head>
-  <body>
-    <form>
-      <input id="inputValue" type="">
+    <script type="module" src="script.js"></script> 
+  <!-- <script src="lesson.js" defer></script> -->
+  
+</head>
+
+  
+  <body class="body">
+
+    <form >
+     
+      <input class="inputValue" id="inputValue" type="">
       
+      <label for="fromValue">konverter fra</label>
+      <select class="parameterbox" name="fromValue" id="fromValue">
+        <option value="CM">CM</option>
+        <option value="M">M</option>
+        <option value="KM">KM</option>
+      </select>
+
+
+      <label for="toValue">konverter til</label>
+      <select class="parameterbox" name="toValue" id="toValue">
+        <option value="CM">CM</option>
+        <option value="M">M</option>
+        <option value="KM">KM</option>
+      </select>
+    
     </form>
-    <button id="submitValue"> konventer </button>
+   
+    
+    <button id="submitValue"> konverter </button>
+    
+      <p id="displayValue"></p>
 
 
-    <p id="displayValue"></p>
+    
     
 
-    
-    
     <main>
      
     </main>
+
+
   </body>
 </html>

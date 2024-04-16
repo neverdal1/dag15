@@ -75,12 +75,6 @@ else {
 displayValue.textContent = result;
 });
 
-// hent et h1 element fra HTML Document
-
-const h1 = document.querySelector = ("#h1");
-console.log(greetings)
-
-
 
 
 

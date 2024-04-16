@@ -1,22 +1,37 @@
 const submitValue = document.querySelector("#submitValue");
 console.log(submitValue);
 
-submitValue.addEventListener("click", () =>{
 
+// submitvalue viser den konverterte verdien (kalkuleringen)
+submitValue.addEventListener("click", () =>{
+  
+//   queryselector() henter noe fra html
     const inputValue = document.querySelector("#inputValue").value;
     console.log(inputValue) 
     
+    
+    //   queryselector() henter noe fra html
     const displayValue = document.querySelector("#displayValue");
 console.log(displayValue);
 
+
+// .value er at vi henter verdi/innhold til element
 displayValue.textContent = inputValue;
 
+
+// .value er at vi henter verdi/innhold til element
 const fromValue = document.querySelector("#fromValue").value;
 console.log(fromValue);
 
+
+// .value er at vi henter verdi/innhold til element
 const toValue = document.querySelector("#toValue").value;
 console.log (toValue);
 
+
+
+
+// formel liste i else if
 let result; 
 
 
@@ -60,9 +75,10 @@ else {
 displayValue.textContent = result;
 });
 
+// hent et h1 element fra HTML Document
 
-
-
+const h1 = document.querySelector = ("#h1");
+console.log(greetings)
 
 
 
